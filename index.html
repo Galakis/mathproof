@@ -4,13 +4,17 @@
     <head>
         <meta charset="utf-8">
 
+        function myFunction() {
+          document.getElementById("demo").innerHTML = "Paragraph changed.";
+        }
         <title>Blank template</title>
 
     </head>
 
     <body>
 
-        <h1>My awesome space</h1>
+        <button type="button" onclick="myFunction()">Try it</button>
+        <p id="demo">A Paragraph</p>
         
     </body>
 
